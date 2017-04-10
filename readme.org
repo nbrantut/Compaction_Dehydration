@@ -1,0 +1,31 @@
+* Numerical computation of dehydration/compaction instability
+
+This set of Matlab codes have been developed to compute the evolution of pore fluid pressure, reaction progress, stress and strain for a dehydrating antigorite layer in uniaxial deformation. The problem is written in the form of a coupled set of Ordinary Differential Equations; please refer to the manuscript for an in-depth explanation of the governing equations. For a simple summary, you can type:
+#+begin_src octave
+publish mainq.m
+#+end_src
+and have a look at the published html/pdf file.
+
+Note: This code is not meant to be very versatile and is quite specific to the problem at hand. 
+
+** Installation
+Just clone the repository or copy the files into your working folder. Done !
+
+** Requirements
+You will need to have the package [[http://www.peter-junglas.de/fh/water95/index.html][water95]] in your Matlab path.
+
+** Usage
+The main script =mainq.m= shuold run smoothly and produce the requested output. All the scripts and functions should be reasonably documented so the command =help= ought to produce something readable.
+
+** Documentation
+Please type =publish mainq.m= and you should get a decent html or pdf summary of what the code does.
+
+** Authors
+This code has been written by Nicolas Brantut (Rock and Ice Physics and Seismological Laboratory, University College London, UK) and Ioannis Stefanou (Laboratoire Navier, Ecole des Ponts-et-Chaussees, Marne-la-Vallee, France), based on Ioannis' complete solution originally written in Mathematica.
+
+** Referencing
+This repository is an inseparable companion to the following manuscript:
+
+Brantut N., I. Stefanou and J. Sulem, *Dehydration and deformation instabilites at intermediate depths in subduction zones*, submitted to /J. Geophys. Res./.
+
+
