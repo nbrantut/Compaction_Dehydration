@@ -26,6 +26,6 @@ This code has been written by Nicolas Brantut (Rock and Ice Physics and Seismolo
 ** Referencing
 This repository is an inseparable companion to the following manuscript:
 
-Brantut N., I. Stefanou and J. Sulem, *Dehydration and deformation instabilites at intermediate depths in subduction zones*, submitted to /J. Geophys. Res./.
+Brantut N., I. Stefanou and J. Sulem, *Dehydration-induced instabilites at intermediate depths in subduction zones*, submitted to /J. Geophys. Res./.
 
 
